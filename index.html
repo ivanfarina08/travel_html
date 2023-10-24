@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Viagem dos sonhos</title>
+</head>
+<body>
+    <header>
+        <section>
+            <p>FLY</p>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#">Pacotes</a></li>
+                <li><a href="#">Taxa</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>       
+        <video width="100%" autoplay muted loop>
+            <source src="video/aviao.mp4" type="video/mp4">
+            Seu navegador não suporta a exibição do vídeo
+        </video> 
+    </header>
+    <section id="Chamada">
+        <h1>Venha realizar a viagem dos seus sonhos</h1>
+        <a href="#">Conheça nossos pacotes</a>
+    </section>
+
+    <section id="corpo">
+
+        <section>
+            <h2>Conheça nossos pacotes</h2>
+            <hr>
+        </section>    
+        <section id="imagens-pac">
+            <figure>
+                <img src="img/praia.jpg" alt="imagem de uma praia">
+                <figcaption>Praia</figcaption>
+            </figure>
+            <figure>
+                <img src="img/montanha.jpg" alt="imagem de uma montanha">
+                <figcaption>Montanha</figcaption>
+            </figure>
+            <figure>
+                <img src="img/chales.jpg" alt="imagem de um chalé">
+                <figcaption>Chalé</figcaption>
+            </figure>
+        </section>
+        <section>
+            <section>
+                <h2>Taxas e serviços</h2>
+                <hr>
+            </section>
+            <table border>
+                <thead>
+                    <tr>
+                        <th>Serviço</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>            
+                <tbody>
+                    <tr>
+                        <td>Reserva de Hotel</td>
+                        <td>R$150,00</td>
+                    </tr>
+                    <tr>
+                        <td>Compra de passagens</td>
+                        <td>R$100,00</td>
+                    </tr>
+                    <tr>
+                        <td>Aluguel de carros</td>
+                        <td>R$50,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Contato</h2>
+            <hr>
+        </section>
+        
+
+        <section id="espaco-formulario">
+            <article id="formulario">
+                <form action="" method="get">
+        
+                    <label for="nome">Nome</label><br>
+                    <input type="text" name="nome" id="" placeholder="Nome completo" title="Digite seu nome completo" autocomplete="on"><br><br>
+    
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="" placeholder="email@email.com" title="Digite seu e-mail" autocomplete="on"><br><br>
+                    <label for="dataida">Data de ida</label><br>
+                    <input type="date" name="dataida" id=""><br><br>
+        
+                    <fieldset>
+                        <legend>Quais serviços deseja contratar?</legend>
+                        
+                        <input type="checkbox" name="passagens" id="passagens" value="sim"><label for="passagens">Compra de passagens</label> <br>
+        
+                        <input type="checkbox" name="hospedagem" id="hospedagem" value="sim"><label for="hospedagem">Reserva de hospedagens</label> <br>
+        
+                        <input type="checkbox" name="veiculos" id="veiculos" value="sim"><label for="veiculos">Reserva de veículos</label> <br>
+        
+                    </fieldset><br>
+        
+                    <fieldset>
+                        <legend>Escolha a forma de pagamento</legend>
+                        
+                        <input type="radio" name="pagamento" id="cartao" value="credito"><label for="cartao">Cartão de crédito</label> <br>
+        
+                        <input type="radio" name="pagamento" id="pix" value="pix"><label for="pix">PIX</label> <br>
+        
+                        <input type="radio" name="pagamento" id="boleto" value="boleto"><label for="boleto">Boleto</label> <br>
+        
+                    </fieldset><br>
+        
+                </fieldset><br>
+        
+                <fieldset>
+                    <legend>Escolha o prazo para pagamento</legend>
+                    
+                    <select name="prazoPagamento" id="">
+                        <option value="avista">À vista</option>
+                        <option value="5x">5x sem juros</option>
+                        <option value="10x">10x com juros</option>
+                    </select>
+        
+                </fieldset><br>
+        
+                    <label for="comentario">Comentário</label><br>
+                    <textarea name="comentario" id="" cols="30" rows="10" placeholder="Do que você precisa?" title="Digite seu comentário" autocomplete="on"></textarea><br><br>
+                    
+                    <input type="submit">
+                </form>
+            </article>
+
+            <article id="imagem-formulario">
+                <figure>
+                    <img id="travel" src="img/travel.jpg" alt="imagem sobre viagem">
+                </figure>
+            </article>
+        </section>
+
+    </section>
+    
+    <footer>
+        <hr>
+        Desenvolvido por Ivan Farina
+    </footer>
+</body>
+</html>

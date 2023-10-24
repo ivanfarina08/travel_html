@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier';
+    z-index: 2;
+    font-size: 20px;
+}
+
+header{
+    position: relative;
+    height: 150px;
+    display: flex;
+}
+
+header section{
+    width: 50%;
+    font-size: 30px;
+    height: 75px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header section p{
+    font-size: 25px;
+    background-color:aliceblue;
+    float: left;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 50px #ccc;
+    font-weight: 700;
+    margin-left: 10px;
+    color: black;
+}
+
+nav{
+    width: 50%;
+    font-size: 18px;
+    letter-spacing: 4px;
+    height: 75px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding-right: 10px;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    border-radius: 5%;
+    display: block;
+    text-align: center;
+    height: 75px;
+    padding: 0 20px 0 20px;
+    display: block;
+    line-height: 75px; 
+}
+
+nav li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+nav li{
+    flex-direction: row;
+    height: 60px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+header video{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    height: 900px;
+    object-fit: cover; /* Definir width 100% independete do height */
+}
+
+section{
+    position: relative;
+}
+
+#Chamada{
+    text-align: center;
+    height: 760px;
+}
+
+section h1{
+    font-size: 80px;
+    font-weight: 400;
+    padding: 110px 200px 70px  200px;
+    letter-spacing: 4px;
+}
+
+section a{
+    font-size: 25px;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+section a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+#corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section section{
+    width: 80%;
+}
+
+section h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+
+section hr{
+    width: 10%;
+    height: 3px;
+    margin: 10px 0 10px 0;
+    background-color: red;
+}
+
+#imagens-pac{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+figure{
+    height: 350px;
+    padding: 10px;
+}
+
+img{
+    height: 310px;
+    border: solid;
+}
+
+figcaption{
+    font-size: 25px;
+    text-align: center;
+}
+
+table{
+    width: 60%;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+table caption{
+    font-size: 25px;
+}
+
+table tr{
+    height: 50px;
+}
+
+table td{
+    text-align: center;
+    width: 50%;
+}
+
+table th{
+    font-size: 25px;
+}
+
+#espaco-formulario{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 80%;
+}
+
+#formulario{
+    width: 51%;
+}
+
+#imagem-formulario{
+    width: 49%;
+}
+
+#travel{
+    width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 25px;
+}
+
+form{
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 0.2);
+    padding: 20px 40px 20px 20px;
+    border-radius: 20px;
+}
+
+input[type=text],input[type=email],input[type=date],select,fieldset{
+    width:100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=checkbox],input[type=radio], fieldset label{
+    padding: 12px 20px;
+    inline-size: 2.2em;
+    line-height: 30px; 
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    max-width: 100%;
+}
+
+input[type=submit]{
+    width:50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgb(115, 231, 100);
+    font-weight: 600;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(231, 100, 100);
+    cursor: pointer;
+}
+
+
+footer{
+    margin-top: 30px;
+    height: 100px;
+}
